@@ -22,7 +22,7 @@ Vous devez configurer les stations dont vous souhaitez voir les informations en 
 
 It has been tested for // Le module a été testé pour : 
 
- - Paris, Lyon, Mulhouse, Toulouse, Sevilla (Spain). 
+ - Lyon, Mulhouse, Toulouse, Sevilla (Spain). 
  
 For not tested cities, it should work aswell, in case of unexpected issue, ask for my help at the MagicMirror Forum, link below // Pour les autres villes non vérifiées, le fonctionnement devrait être le même, en cas de bug, contacter-moi sur le forum MagicMirror ici : 
 
@@ -181,7 +181,7 @@ The `stations` property contains an array with 3 objects. These objects have the
 			<td><code>contract</code></td>
 			<td>That's the second <b>key identifier</b> with <code>number</code> above. It is the name of the city which bought the bike sharing scheme from JCDecaux.<br>
 				<br><b>Possible values:</b><code>paris</code> for Vélib', <code>lyon</code> for Vélo'v, <code>seville</code> for Sevici in Sevilla. 
-				<br>When a bike sharing scheme overlaps over suburbs cities, the contract name stays the same, generally the big city name. For Paris suburbs, contracts same is still <code>paris</code>. 
+				<br>When a bike sharing scheme overlaps over suburbs cities, the contract name stays the same, generally the big city name. 
 				<br>Notice how Sevilla took the French spelling <code>seville</code> since JCDecaux is a French company. For not French cities, you might have to test a few spellings to get the right one.  
 			</td>
 		</tr>
